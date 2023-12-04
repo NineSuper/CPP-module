@@ -1,15 +1,15 @@
 INC=/usr/include
 INCLIB=$(INC)/../lib
 
-NAME = 
+NAME = megaphone
 
-SRC = 
+SRC = megaphone.cpp
 
 LIB = 
 HEADER_FILE = 
 
-OBJ = $(SRC:.c=.o)
-CC = c++
+OBJ = $(SRC:.cpp=.o)
+CC = g++
 
 FLAGS = -std=c++98
 
@@ -17,7 +17,7 @@ FLAGS = -std=c++98
 
 BOLD_RED		=		\033[1;31m
 
-BOLD_PURPLE     =       \033[1;35m
+BOLD_PURPLE     =       \033[1;34m
 
 BOLD_CYAN       =       \033[1;36m
 
@@ -31,7 +31,7 @@ NO_COLOR        =       \033[0m
 
 HEADER_NAME		=		$(HEADER_TOP) $(HEADER_TOP_MID) $(HEADER_MID)$(HEADER_BOT)
 
-HEADER_COMP     =       echo "\n👾 $(BOLD_PURPLE)$(NAME) $(NO_COLOR)$(BOLD)by $(BOLD_RED)tde-los- & ...\n\n"
+HEADER_COMP     =       echo "\n📢 $(BOLD_PURPLE)$(NAME) $(NO_COLOR)$(BOLD)by $(BOLD_RED)tde-los-\n\n"
 
 COMP_START      =       printf "\n🚧 $(BOLD_YELLOW)Make: $(NO_COLOR)$(BOLD)Debut de compilation...\r$(NO_COLOR)"
 
@@ -51,8 +51,7 @@ NORM_H			=		echo "\n📣 $(BOLD_CYAN)NORMINETTE: $(BOLD_YELLOW)Verification de l
 MAKEFLAGS += --silent
 
 $(NAME): comp_start $(OBJ)
-	@$(MAKE) 
-	@$(CC) $(OBJ) -o $(NAME)
+	@$(CC) $(FLAGS) $(OBJ) -o $(NAME)
 	echo "\n"
 	@$(EXE_READY)
 
@@ -64,14 +63,14 @@ comp_start:
 
 clean:
 	$(CLEANED)
-	rm -f $(NAME) $(OBJ) *~ core *.core
+	rm -f $(OBJ)
 
-fclean: 
-	rm -f $(NAME) $(OBJ) *~ core *.core
+fclean:
+	rm -f $(NAME) $(OBJ)
 	$(FCLEANED)
 
-re: clean all
+re: fclean all
 
-%.o: %.c
+%.o: %.cpp
 	@printf "🚧 $(BOLD_YELLOW)Make: $(NO_COLOR)$(BOLD)Compilation des fichiers :$(BOLD_CYAN) %-33.33s\r$(NO_COLOR)" $@
-	@${CC} ${FLAGS} $(WIN_SIZE) -c $< -o $@
+	@$(CC) $(FLAGS) -c $< -o $@
