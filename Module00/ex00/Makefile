@@ -11,7 +11,7 @@ HEADER_FILE =
 OBJ = $(SRC:.cpp=.o)
 CC = g++
 
-FLAGS = -std=c++98
+FLAGS = -Wall -Wextra -Werror -std=c++98
 
 # ------------------------------ Couleurs ------------------------------
 
