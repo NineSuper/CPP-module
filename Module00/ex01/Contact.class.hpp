@@ -6,17 +6,13 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 12:26:35 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/06 15:15:27 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/06 23:38:23 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CONTACT_CLASS_HPP
 # define CONTACT_CLASS_HPP
 #include <iostream>
-
-/*
-* Contact[First Name; last name; nickname; Phone Number; darkest secret]
-*/
 
 class	Contact {
 	

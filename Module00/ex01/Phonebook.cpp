@@ -6,17 +6,13 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 10:49:30 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/06 23:34:21 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/06 23:38:13 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include "Phonebook.class.hpp"
 #include "Contact.class.hpp"
-
-/*
-	? Finir la fonction search
-*/
 
 Phonebook::Phonebook(void)
 {
