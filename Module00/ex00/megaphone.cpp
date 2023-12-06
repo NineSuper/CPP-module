@@ -6,19 +6,11 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 12:40:23 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/05 17:07:41 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/06 10:37:36 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
-
-void	ft_toupeur(char c)
-{
-	if (c >= 'a' && c <= 'z')
-		std::cout << (char)(c - 32);
-	else
-		std::cout << c;
-}
 
 int	main(int argc, char **argv)
 {
@@ -34,7 +26,7 @@ int	main(int argc, char **argv)
 	{
 		int j = -1;
 		while (argv[i][++j])
-			ft_toupeur(argv[i][j]);
+			std::cout << (char)std::toupper(argv[i][j]);
 	}
 	std::cout << std::endl;
 	return (0);
