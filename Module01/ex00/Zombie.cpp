@@ -6,26 +6,31 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/07 12:18:29 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/07 12:35:02 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/07 14:29:04 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.class.hpp"
-#include <iostream>
 
 Zombie::Zombie(void)
 {
-	std::cout << _annonce() << " BraiiiiiiinnnzzzZ..." << std::endl;
+	return ;
+}
+
+Zombie::Zombie(std::string name)
+{
+	this->_name = name;
 	return ;
 }
 
 Zombie::~Zombie(void)
 {
-	std::cout << _annonce() << " 💀" << std::endl;
+	std::cout << this->_name << " 💀" << std::endl;
 	return ;
 }
 
-std::string Zombie::_annonce(void) const
+void Zombie::annonce(void) const
 {
-	return (this->_name);
+	std::cout << this->_name << " BraiiiiiiinnnzzzZ..." << std::endl;
+	return ;
 }

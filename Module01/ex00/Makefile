@@ -3,7 +3,7 @@ INCLIB=$(INC)/../lib
 
 NAME = BraiiiiiiinnnzzzZ
 
-SRC = main.cpp Zombie.cpp
+SRC = main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
 
 LIB =
 HEADER_FILE =
