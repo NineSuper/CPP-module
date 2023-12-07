@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 11:12:48 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/06 23:37:22 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/07 09:53:50 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,7 @@ int	main(void)
     Phonebook	repertory;
 	std::string	str;
 
-	std::cout << "\n----Main----\n" << std::endl;
-	repertory.print_book();
+	std::cout << std::endl;
 	std::getline(std::cin, str);
 	while (str != "exit" && str != "EXIT")
 	{
@@ -30,6 +29,5 @@ int	main(void)
 			repertory.add_contact();
 		std::getline(std::cin, str);
 	}
-	std::cout << "\n----Main----\n" << std::endl;
     return (0);
 }
