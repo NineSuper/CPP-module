@@ -37,3 +37,7 @@ make
 ./megaphone
 ```
 Happy coding! 🚀✨
+
+## 📝 Auteurs
+
+- 🎫 [@NineSuper](https://www.github.com/NineSuper)
