@@ -51,6 +51,7 @@ NORM_LIB        =       echo "\n📢 $(BOLD_CYAN)NORMINETTE: $(BOLD_YELLOW)Verif
 NORM_H          =       echo "\n📣 $(BOLD_CYAN)NORMINETTE: $(BOLD_YELLOW)Verification de la norme du .h\n$(BOLD_PURPLE)"
 
 # ------------------------------ Regles ------------------------------
+
 MAKEFLAGS += --silent
 
 TOTAL_FILES := $(words $(SRC))
