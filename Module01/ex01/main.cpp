@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/07 12:14:46 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/07 16:45:38 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/12 11:39:05 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
 int	main()
 {
 	int	nb = 10;
-	int	i = -1;
-	Zombie	*Hordes = Hordes->zombieHorde(nb, "Zombie");
-
+	Zombie	*Hordes = NULL;
+	
+	Hordes = Hordes->zombieHorde(nb, "Zombie");
 	std::cout << "\n-----------" << std::endl << std::endl;
 	std::cout << "pointer to the first zombie :" << std::endl;
 	Hordes->annonce();
