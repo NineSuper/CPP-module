@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/07 12:14:46 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/07 15:38:11 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/12 11:40:29 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 int	main()
 {
-	Zombie	*Albert;
+	Zombie	*Albert = NULL;
 	Zombie	Einstein;
 	Zombie	Tom("Tom");
 
