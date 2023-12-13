@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/13 12:05:33 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/13 16:14:40 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/13 16:18:44 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,6 @@ void	ft_newfile(std::string src, std::string dest, std::string str1, std::string
  	char			caractere;
  	std::size_t		pos = 0;
 
-	OldFile.get(caractere);
-	std::cout << caractere;
    	while (OldFile.get(caractere))
  	{
  		NewStr.push_back(caractere);
