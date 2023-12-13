@@ -4,7 +4,7 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 
 ## 📚 Modules
 
-### Module 00 - Introduction to C++
+### Module 00 - Introduction au C++
 
 - [x] [ex00 - Megaphone](./Module00/ex00)
 - [x] [ex01 - PhoneBook](./Module00/ex01)
