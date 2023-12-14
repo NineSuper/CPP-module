@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 13:45:17 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/14 16:20:53 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/14 17:15:54 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,32 @@ void	Harl::complain(std::string level)
 	int	i = -1;
 
 	while (++i < 4)
-		if (level == str[i])
-    		(this->*ptr[i])();
+	 	if (level == str[i])
+			break ;
+	switch (i)
+	{
+		case 0:
+			(this->*ptr[0])();
+			(this->*ptr[1])();
+			(this->*ptr[2])();
+			(this->*ptr[3])();
+			break;
+		case 1:
+			(this->*ptr[1])();
+			(this->*ptr[2])();
+			(this->*ptr[3])();
+			break;
+		case 2:
+			(this->*ptr[2])();
+			(this->*ptr[3])();
+			break ;
+		case 3:
+			(this->*ptr[3])();
+			break ;
+		default:
+			std::cout << "[ Probably complaining about insignificant problems ]" << std::endl;
+			break;
+	}
 	return ;
 }
 

@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 13:41:53 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/14 16:26:03 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/14 16:29:59 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,19 +14,6 @@
 # define HARL_CLASS_HPP
 
 #include <iostream>
-
-/*
-* "Debug" Message de debogage, informations contextuelles
-
-* "Info" Message d'information, Suivre l’exécution d’un programme dans un environnement de production.
-
-* "Warning" Message d'avertissement, un problème potentiel dans le systeme, \
-* il peut être traité ou ignoré
-
-* "Error" Message d'une erreur irrécupérable, problème critique qui nécessite une intervention manuelle
-
-? void	complain(... level) -> pointeur vers des les fonctions membres
-*/
 
 class Harl
 {

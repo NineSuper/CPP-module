@@ -80,6 +80,6 @@ re: fclean all
 
 %.o: %.cpp
 	@printf "🚧 $(BOLD_YELLOW)Make: $(NO_COLOR)$(BOLD)Compilation des fichiers :$(BOLD_CYAN) %-33.33s$(BOLD_YELLOW)[%d/%d] $(BOLD_YELLOW)[%3d%%] \r$(NO_COLOR)" $? $(COMPILED_FILES) $(TOTAL_FILES) $(shell expr \( $(COMPILED_FILES) \) \* 100 / $(TOTAL_FILES))
-	@$(CC) $(CFLAGS) $(FLAGS) -c $< -o $@
+	@$(CC) $(FLAGS) -c $< -o $@
 	@$(eval COMPILED_FILES=$(shell echo $$(($(COMPILED_FILES)+1))))
 	@printf "🚧 $(BOLD_YELLOW)Make: $(NO_COLOR)$(BOLD)Compilation des fichiers :$(BOLD_CYAN) %-33.33s$(BOLD_YELLOW)[%d/%d] $(BOLD_YELLOW)[%3d%%] \r$(NO_COLOR)" $? $(COMPILED_FILES) $(TOTAL_FILES) $(shell expr \( $(COMPILED_FILES) \) \* 100 / $(TOTAL_FILES))
