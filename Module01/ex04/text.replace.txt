@@ -1,27 +1,27 @@
 Voici mon README (j'avais rien d'autres à mettre :/)
 
-# Modules CPP - Ecole 42
+#  s CPP - Ecole 42
 
 Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce dépôt contient les projets réalisés dans le cadre des modules C++ du cursus.
 
-## 📚 Modules
+## 📚  s
 
-                                 OK Module 00 - Introduction au C++
+###   00 - Introduction au C++
 
-- [x] [ex00 - Megaphone](./Module00/ex00)
-- [x] [ex01 - PhoneBook](./Module00/ex01)
+- [x] [ex00 - Megaphone](./ 00/ex00)
+- [x] [ex01 - PhoneBook](./ 00/ex01)
 
-                                 OK Module 01 - Memory Allocation - Pointeur & référence
+###   01 - Memory Allocation - Pointeur & référence
 
-- [x] [ex00 - Zombie](./Module01/ex00)
-- [x] [ex01 - Hordes](./Module01/ex01)
-- [x] [ex02 - Pointer](./Module01/ex02)
-- [x] [ex03 - Object](./Module01/ex03)
-- [ ] [ex04 - ...](.Module01/ex04)
+- [x] [ex00 - Zombie](./ 01/ex00)
+- [x] [ex01 - Hordes](./ 01/ex01)
+- [x] [ex02 - Pointer](./ 01/ex02)
+- [x] [ex03 - Object](./ 01/ex03)
+- [ ] [ex04 - ...](. 01/ex04)
 
-                                 OK Module 02 - [x]
+###   02 - [x]
 
-- [x] [ex00 - x](./Module02/ex00)
+- [x] [ex00 - x](./ 02/ex00)
 
 ## 🛠️ Prérequis
 

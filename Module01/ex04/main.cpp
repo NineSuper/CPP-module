@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/13 12:05:33 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/13 16:18:44 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/14 13:25:16 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,30 +14,26 @@
 #include <stdlib.h>
 #include <fstream>
 
-/*
-* Créez un programme qui prend trois paramètres dans l'ordre suivant : un nom de fichier et deux chaînes, s1 et s2.
-
-* Il ouvrira le fichier <filename> et copiera son contenu dans un nouveau fichier <filename>.replace, 
-* en remplaçant chaque occurrence de s1 par s2.
-*/
-
 void	ft_newfile(std::string src, std::string dest, std::string str1, std::string str2)
 {
  	std::ifstream	OldFile(src.c_str());
  	std::ofstream	NewFile(dest.c_str());
  	std::string		NewStr;
  	char			caractere;
- 	std::size_t		pos = 0;
+ 	std::size_t		pos;
+	int i = 0;
 
    	while (OldFile.get(caractere))
  	{
  		NewStr.push_back(caractere);
- 		pos = NewStr.find(str1);
- 		if (pos <= NewStr.length())
+ 		pos = NewStr.find(str1, i);
+ 		if (pos < NewStr.length())
  		{
  			NewStr.erase(pos, str1.length());
  			NewStr.insert(pos, str2);
+			i = pos + str1.length();
  		}
+		
  	}
 	NewFile << NewStr;
  	std::cout << NewStr << std::endl;
