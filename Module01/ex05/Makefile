@@ -1,3 +1,5 @@
+# @Makefile by tde-los- (http://github.com/NineSuper)
+
 INC=/usr/include
 INCLIB=$(INC)/../lib
 
