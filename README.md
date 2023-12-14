@@ -9,7 +9,7 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 - [x] [ex00 - Megaphone](./Module00/ex00)
 - [x] [ex01 - PhoneBook](./Module00/ex01)
 
-### Module 01 - Memory Allocation - Pointeur & référence
+### Module 01 - Memory Allocation - Pointeur & référence - Switch statement
 
 - [x] [ex00 - Zombie](./Module01/ex00)
 - [x] [ex01 - Hordes](./Module01/ex01)
@@ -22,6 +22,8 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 ### Module 02 - [x]
 
 - [x] [ex00 - x](./Module02/ex00)
+- [x] [ex01 - x](./Module02/ex01)
+
 
 ## 🛠️ Prérequis
 
