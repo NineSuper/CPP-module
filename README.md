@@ -15,7 +15,8 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 - [x] [ex01 - Hordes](./Module01/ex01)
 - [x] [ex02 - Pointer](./Module01/ex02)
 - [x] [ex03 - Object](./Module01/ex03)
-- [ ] [ex04 - ...](.Module01/ex04)
+- [x] [ex04 - File](.Module01/ex04)
+- [x] [ex05 - ...](.Module01/ex05)
 
 ### Module 02 - [x]
 
