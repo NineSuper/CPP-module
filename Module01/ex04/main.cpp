@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/13 12:05:33 by tde-los-          #+#    #+#             */
-/*   Updated: 2023/12/14 13:25:16 by tde-los-         ###   ########.fr       */
+/*   Updated: 2023/12/14 13:38:21 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,6 +71,7 @@ int	main(int argc, char **argv)
 {
     if (argc != 4)
         return (std::cout << "./replace <filename.txt> *source *replace" << std::endl, 0);
-	ft_checkarg(argv);
+	else
+		ft_checkarg(argv);
     return (0);
 }
