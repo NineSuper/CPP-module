@@ -45,9 +45,11 @@ Happy coding! 🚀✨
 
 ## Notes
 
-[![Module 00 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3424222)](https://github.com/Coday-meric/badge42)
-[![Module 01 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3443349)](https://github.com/Coday-meric/badge42)
-[![Module 02 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3454645)](https://github.com/Coday-meric/badge42)
+Module 00: [![Module 00 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3424222)](https://github.com/Coday-meric/badge42)
+
+Module 01: [![Module 01 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3443349)](https://github.com/Coday-meric/badge42)
+
+Module 02: [![Module 02 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3454645)](https://github.com/Coday-meric/badge42)
 
 ## 📝 Auteur
 
