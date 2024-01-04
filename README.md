@@ -24,7 +24,7 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 - [ ] [ex00 - x](./Module02/ex00)
 - [ ] [ex01 - x](./Module02/ex01)
 
-### Module 03 - Inheritance
+### Module 03 - Inheritance Class
 
 - [x] [ex00 - ClapTrap](./Module03/ex00)
 - [x] [ex01 - ScavTrap](./Module03/ex01)
