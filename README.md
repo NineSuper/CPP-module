@@ -15,9 +15,9 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 - [x] [ex01 - Hordes](./Module01/ex01)
 - [x] [ex02 - Pointer](./Module01/ex02)
 - [x] [ex03 - Object](./Module01/ex03)
-- [x] [ex04 - File](./Module01/ex04)
-- [x] [ex05 - Pointer to member function](./Module01/ex05)
-- [x] [ex06 - Switch statement](./Module01/ex06)
+- [x] [ex04 - File](.Module01/ex04)
+- [x] [ex05 - Pointer to member function](.Module01/ex05)
+- [x] [ex06 - Switch statement](.Module01/ex06)
 
 ### Module 02 - [x]
 
@@ -46,3 +46,10 @@ Happy coding! 🚀✨
 ## 📝 Auteurs
 
 - 🎫 [@NineSuper](https://www.github.com/NineSuper)
+
+## Notes
+
+[![Module 00 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3424222)](https://github.com/Coday-meric/badge42)
+[![Module 01 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3443349)](https://github.com/Coday-meric/badge42)
+[![Module 02 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3454645)](https://github.com/Coday-meric/badge42)
+
