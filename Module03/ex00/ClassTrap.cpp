@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/04 11:51:59 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/01/04 13:52:48 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/01/04 14:17:27 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ ClapTrap::ClapTrap(std::string name)
 	this->_died = 0;
 	std::cout << "\x1B[94m";
 	std::cout << "[Constructor] " << name << " ❤️ :" << this->_health;
-	std::cout << " 🏋️‍♀️:" << this->_energy << " 🥊:" << this->_attackDamage;
+	std::cout << " 🏀:" << this->_energy << " 🥊:" << this->_attackDamage;
 	std::cout << "\033[0m";
 	std::cout << std::endl;
 }
