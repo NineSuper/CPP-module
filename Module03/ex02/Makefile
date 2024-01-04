@@ -3,9 +3,9 @@
 INC=/usr/include
 INCLIB=$(INC)/../lib
 
-NAME = ScavTrap
+NAME = FragTrap
 
-SRC = main.cpp ClassTrap.cpp ScavTrap.cpp
+SRC = main.cpp ClassTrap.cpp ScavTrap.cpp FragTrap.cpp
 
 LIB =
 HEADER_FILE =

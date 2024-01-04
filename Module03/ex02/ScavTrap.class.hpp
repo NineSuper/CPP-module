@@ -1,37 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ClapTrap.class.hpp                                 :+:      :+:    :+:   */
+/*   ScavTrap.class.hpp                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/04 11:51:50 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/01/04 22:21:10 by tde-los-         ###   ########.fr       */
+/*   Created: 2024/01/04 15:00:01 by tde-los-          #+#    #+#             */
+/*   Updated: 2024/01/04 22:22:16 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CLAPTRAP_CLASS_HPP
-# define CLAPTRAP_CLASS_HPP
+#ifndef SCAVTRAP_CLASS_HPP
+# define SCAVTRAP_CLASS_HPP
 
-#include <iostream>
+#include "ClapTrap.class.hpp"
 
-class ClapTrap
+class ScavTrap: public ClapTrap
 {
-	protected:
-		std::string	_name;
-		std::string	_target;
-		int		_energy;
-		int		_attackDamage;
-		int		_health;
-		int		_died;
+	private:
+		bool	_gate;
 	public:
-		void	attack(const std::string& target);
-		void	takeDamage(unsigned int amount);
-		void	beRepaired(unsigned int amount);
+		void	guardGate(void);
+		void	attack(const std::string &target);
 
-		ClapTrap(std::string name);
-		ClapTrap(void);
-		~ClapTrap(void);
+		ScavTrap(std::string name);
+		~ScavTrap();
 };
 
 #endif

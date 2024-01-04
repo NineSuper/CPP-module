@@ -1,37 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ClapTrap.class.hpp                                 :+:      :+:    :+:   */
+/*   FragTrap.class.hpp                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/04 11:51:50 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/01/04 22:21:10 by tde-los-         ###   ########.fr       */
+/*   Created: 2024/01/04 22:15:33 by tde-los-          #+#    #+#             */
+/*   Updated: 2024/01/04 22:29:27 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CLAPTRAP_CLASS_HPP
-# define CLAPTRAP_CLASS_HPP
+#ifndef FRAGTRAP_CLASS_HPP
+# define FRAGTRAP_CLASS_HPP
 
-#include <iostream>
+#include "ClapTrap.class.hpp"
 
-class ClapTrap
+class FragTrap: public ClapTrap
 {
-	protected:
-		std::string	_name;
-		std::string	_target;
-		int		_energy;
-		int		_attackDamage;
-		int		_health;
-		int		_died;
+	private:
+		/* data */
 	public:
-		void	attack(const std::string& target);
-		void	takeDamage(unsigned int amount);
-		void	beRepaired(unsigned int amount);
+		void	highFivesGuys(void);
 
-		ClapTrap(std::string name);
-		ClapTrap(void);
-		~ClapTrap(void);
+		FragTrap(std::string name);
+		~FragTrap();
 };
 
 #endif
