@@ -29,7 +29,14 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 - [x] [ex00 - ClapTrap](./Module03/ex00)
 - [x] [ex01 - ScavTrap](./Module03/ex01)
 - [x] [ex02 - FragTrap](./Module03/ex02)
-- [ ] [ex03 - DiamondTrap](./Module03/ex03)
+- [x] [ex03 - DiamondTrap](./Module03/ex03)
+
+### Module 04 - Polymorphisme par sous-typage, classes abstraites, interfaces
+
+- [ ] [ex00 - Polymorphisme](./Module04/ex00)
+- [ ] [ex01 - ](./Module04/ex01)
+- [ ] [ex02 - Classe abstraite](./Module04/ex02)
+- [ ] [ex03 - Interface & recap](./Module04/ex03)
 
 
 
