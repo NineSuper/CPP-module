@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/04 11:51:59 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/01/04 15:48:28 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/01/05 14:40:06 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ ClapTrap::~ClapTrap(void)
 void	ClapTrap::attack(const std::string& target)
 {
 	std::cout << "\x1B[91m";
-	std::cout << "[Attack] ";
+	std::cout << "[ClapTrap Attack] ";
 	this->_target = target;
 	if (!this->_energy)
 		std::cout << this->_name << " has no more energy" << std::endl;

@@ -1,29 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   FragTrap.class.hpp                                 :+:      :+:    :+:   */
+/*   DiamondTrap.class.hpp                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/04 22:15:33 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/01/05 12:16:07 by tde-los-         ###   ########.fr       */
+/*   Created: 2024/01/05 14:01:11 by tde-los-          #+#    #+#             */
+/*   Updated: 2024/01/05 14:23:56 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FRAGTRAP_CLASS_HPP
-# define FRAGTRAP_CLASS_HPP
+#ifndef DIAMONDTRAP_CLASS_HPP
+# define DIAMONDTRAP_CLASS_HPP
 
+#include "ScavTrap.class.hpp"
 #include "ClapTrap.class.hpp"
+#include "FragTrap.class.hpp"
 
-class FragTrap: public ClapTrap
+class	DiamondTrap : public FragTrap, public ScavTrap
 {
 	private:
-		/* data */
+		std::string	_name;
 	public:
-		void	highFivesGuys(void);
+		using ScavTrap::attack;
+		void	whoAmI(void);
 
-		FragTrap(std::string name);
-		~FragTrap();
+		DiamondTrap(std::string nname);
+		~DiamondTrap();
 };
 
 #endif

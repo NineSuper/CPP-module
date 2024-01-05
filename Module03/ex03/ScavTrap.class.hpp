@@ -1,29 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   FragTrap.class.hpp                                 :+:      :+:    :+:   */
+/*   ScavTrap.class.hpp                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/04 22:15:33 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/01/05 12:16:07 by tde-los-         ###   ########.fr       */
+/*   Created: 2024/01/04 15:00:01 by tde-los-          #+#    #+#             */
+/*   Updated: 2024/01/05 14:20:15 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FRAGTRAP_CLASS_HPP
-# define FRAGTRAP_CLASS_HPP
+#ifndef SCAVTRAP_CLASS_HPP
+# define SCAVTRAP_CLASS_HPP
 
 #include "ClapTrap.class.hpp"
 
-class FragTrap: public ClapTrap
+class ScavTrap: virtual public ClapTrap
 {
 	private:
-		/* data */
+		bool	_gate;
 	public:
-		void	highFivesGuys(void);
+		void	guardGate(void);
+		void	attack(const std::string &target);
 
-		FragTrap(std::string name);
-		~FragTrap();
+		ScavTrap(std::string name);
+		~ScavTrap();
 };
 
 #endif
