@@ -6,13 +6,13 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/04 14:59:59 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/01/05 12:23:26 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/01/05 15:07:39 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ScavTrap.class.hpp"
 
-ScavTrap::ScavTrap(std::string name) : ClapTrap(name);
+ScavTrap::ScavTrap(std::string name) : ClapTrap(name)
 {
 	this->_energy = 50;
 	this->_health = 100;
