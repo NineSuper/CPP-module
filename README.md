@@ -33,8 +33,8 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 
 ### Module 04 - Polymorphisme par sous-typage, classes abstraites, interfaces
 
-- [ ] [ex00 - Polymorphisme](./Module04/ex00)
-- [ ] [ex01 - ](./Module04/ex01)
+- [x] [ex00 - Polymorphisme](./Module04/ex00)
+- [x] [ex01 - Brain](./Module04/ex01)
 - [ ] [ex02 - Classe abstraite](./Module04/ex02)
 - [ ] [ex03 - Interface & recap](./Module04/ex03)
 
