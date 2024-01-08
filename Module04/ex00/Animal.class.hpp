@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/06 12:18:21 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/01/07 21:14:57 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/01/08 09:00:51 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class Animal
 		virtual void	makeSound() const;
 
 		Animal();
-		~Animal();
+		virtual ~Animal();
 
 		Animal&	operator=(const Animal& src);
 		Animal(const Animal& src);
