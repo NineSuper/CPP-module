@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/08 08:45:35 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/01/08 08:56:09 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/01/08 09:35:47 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@ Brain::~Brain()
 Brain &Brain::operator=(const Brain &src)
 {
 	std::cout << "[Brain operator]" << std::endl;
+	if (this != &src)
+		*this->_ideas = *src._ideas;
 	return (*this);
 }
 
