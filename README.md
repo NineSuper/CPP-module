@@ -19,10 +19,11 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 - [x] [ex05 - Pointer to member function](./Module01/ex05)
 - [x] [ex06 - Switch statement](./Module01/ex06)
 
-### Module 02 - [x]
+### Module 02 - [Operator - Comparaison arithmétiques/incrémentation/..]
 
-- [ ] [ex00 - x](./Module02/ex00)
-- [ ] [ex01 - x](./Module02/ex01)
+- [x] [ex00 - Constructeur de copy/operateur](./Module02/ex00)
+- [x] [ex01 - Premiers pas vers une classe utile](./Module02/ex01)
+- [x] [ex02 - comparaison/arithmétiques/..](./Module02/ex02)
 
 ### Module 03 - Inheritance Class
 
