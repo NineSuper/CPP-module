@@ -37,7 +37,31 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 - [x] [ex00 - Polymorphisme](./Module04/ex00)
 - [x] [ex01 - Brain](./Module04/ex01)
 - [x] [ex02 - Classe abstraite](./Module04/ex02)
-- [ ] [ex03 - Interface & recap](./Module04/ex03)
+
+### Module 05 - Repetition and Exceptions
+
+- [ ] [ex00 - x](./Module05/ex00)
+- [ ] [ex01 - x](./Module05/ex01)
+
+### Module 06 - x
+
+- [ ] [ex00 - x](./Module06/ex00)
+- [ ] [ex01 - x](./Module06/ex01)
+
+### Module 07 - x
+
+- [ ] [ex00 - x](./Module07/ex00)
+- [ ] [ex01 - x](./Module07/ex01)
+
+### Module 08 - x
+
+- [ ] [ex00 - x](./Module08/ex00)
+- [ ] [ex01 - x](./Module08/ex01)
+
+### Module 09 - x
+
+- [ ] [ex00 - x](./Module09/ex00)
+- [ ] [ex01 - x](./Module09/ex01)
 
 
 
@@ -66,6 +90,12 @@ Module 00: [![Module 00 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t6
 Module 01: [![Module 01 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3443349)](https://github.com/Coday-meric/badge42)
 
 Module 02: [![Module 02 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3454645)](https://github.com/Coday-meric/badge42)
+
+Module 03: [![Module 03 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3480898)](https://github.com/Coday-meric/badge42)
+
+Module 04: [![Module 04 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3481430)](https://github.com/Coday-meric/badge42)
+
+Module 05: [![Module 05 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3482928)](https://github.com/Coday-meric/badge42)
 
 ## 📝 Auteur
 
