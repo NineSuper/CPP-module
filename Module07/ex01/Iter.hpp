@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Inter.hpp                                          :+:      :+:    :+:   */
+/*   Iter.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 12:06:00 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/02/05 13:07:41 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/02/12 11:52:01 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef INTER_HPP
-# define INTER_HPP
+#ifndef ITER_HPP
+# define ITER_HPP
 
 #include <iostream>
 #include <string>
@@ -19,7 +19,7 @@
 
 template <typename T>
 
-void	inter(T *tab, size_t len, void (*funct)(T &))
+void	iter(T *tab, size_t len, void (*funct)(T &))
 {
 	size_t	i;
 

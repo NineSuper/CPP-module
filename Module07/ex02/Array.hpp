@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 15:29:37 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/02/08 09:37:54 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/02/12 11:54:46 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define ARRAY_HPP
 
 #include <iostream>
+#include <ctime>
 #include <cstdlib>
 
 template <typename T>
