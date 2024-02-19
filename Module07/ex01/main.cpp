@@ -6,10 +6,11 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/01 10:26:09 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/02/12 11:52:54 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/02/12 14:24:19 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
 #include "Iter.hpp"
 
 void ft_tolower(char &arr)
@@ -59,4 +60,41 @@ int main()
 	"\n\ta[2]: " << tab[2] <<
 	"\n\ta[2]: " << tab[3] <<
 	std::endl << std::endl;
+}
+*/
+
+#include "Iter.hpp"
+#include <string>
+#include <iostream>
+
+class Awesome
+{
+  public:
+    Awesome( void ) : _n( 42 ) { return; }
+    int get( void ) const { return this->_n; }
+  private:
+    int _n;
+};
+
+std::ostream & operator<<( std::ostream & o, Awesome const & rhs )
+{
+  o << rhs.get();
+  return o;
+}
+
+template< typename T >
+void print(const T& x )
+{
+  std::cout << x << std::endl;
+  return;
+}
+
+int main() {
+  int tab[] = { 0, 1, 2, 3, 4 };
+  Awesome tab2[5];
+
+  iter( tab, 5, print<const int> );
+  iter( tab2, 5, print<Awesome> );
+
+  return 0;
 }

@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 12:06:00 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/02/12 11:52:01 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/02/12 14:24:21 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 
 template <typename T>
 
-void	iter(T *tab, size_t len, void (*funct)(T &))
+void	iter(T *tab, size_t len, void (*funct)(const T &))
 {
 	size_t	i;
 
