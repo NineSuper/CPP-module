@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/19 11:39:45 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/02/20 11:38:53 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/02/20 12:26:07 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,18 +52,6 @@ float	Bitcoin::getData(std::string key) const
 void	Bitcoin::addData(const std::string date, const float value)
 {
 	_data[date] = value;
-}
-
-/*	Exception	*/
-
-const char* Bitcoin::badFormat::what() const throw()
-{
-	return ("Error: bad input => ");
-}
-
-const char* Bitcoin::badNumbers::what() const throw()
-{
-	return ("Error: not a positive number.");
 }
 
 /*	Constructor/Operator/Copy/Desctructor	*/

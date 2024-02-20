@@ -6,7 +6,7 @@
 /*   By: tde-los- <tde-los-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/19 11:39:34 by tde-los-          #+#    #+#             */
-/*   Updated: 2024/02/20 11:42:37 by tde-los-         ###   ########.fr       */
+/*   Updated: 2024/02/20 12:25:46 by tde-los-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,18 +27,6 @@ class Bitcoin
 		std::map<std::string, float>	_container;
 
 	public:
-		class badFormat : public std::exception
-		{
-			public:
-				const char *what() const throw();
-		};
-
-		class badNumbers : public std::exception
-		{
-			public:
-				const char *what() const throw();
-		};
-
 		void	printContainer() const;
 		void	printData() const;
 		float	getData(std::string key) const;
