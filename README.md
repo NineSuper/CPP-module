@@ -9,7 +9,7 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 - [x] [ex00 - Megaphone](./Module00/ex00)
 - [x] [ex01 - PhoneBook](./Module00/ex01)
 
-### Module 01 - Memory Allocation - Pointeur & référence - Switch statement
+### Module 01 - Allocation de mémoire - Pointeur & référence - Switch statement
 
 - [x] [ex00 - Zombie](./Module01/ex00)
 - [x] [ex01 - Hordes](./Module01/ex01)
@@ -19,13 +19,13 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 - [x] [ex05 - Pointer to member function](./Module01/ex05)
 - [x] [ex06 - Switch statement](./Module01/ex06)
 
-### Module 02 - [Operator - Comparaison arithmétiques/incrémentation/..]
+### Module 02 - [Operateur - Comparaison arithmétiques/incrémentation/..]
 
 - [x] [ex00 - Constructeur de copy/operateur](./Module02/ex00)
 - [x] [ex01 - Premiers pas vers une classe utile](./Module02/ex01)
 - [x] [ex02 - comparaison/arithmétiques/..](./Module02/ex02)
 
-### Module 03 - Inheritance Class
+### Module 03 - Classe d'héritage
 
 - [x] [ex00 - ClapTrap](./Module03/ex00)
 - [x] [ex01 - ScavTrap](./Module03/ex01)
@@ -38,32 +38,36 @@ Bienvenue sur le dépôt GitHub dédié aux modules CPP de l'école 42 ! 🚀 Ce
 - [x] [ex01 - Brain](./Module04/ex01)
 - [x] [ex02 - Classe abstraite](./Module04/ex02)
 
-### Module 05 - Repetition and Exceptions
+### Module 05 - Répétition et exceptions
 
 - [x] [ex00 - Bureaucrat](./Module05/ex00)
 - [x] [ex01 - Form](./Module05/ex01)
 - [x] [ex02 - Form++](./Module05/ex02)
 - [x] [ex03 - Intern](./Module05/ex03)
 
-### Module 06 - x
+### Module 06 - static/dynamique cast et sérialiser
 
-- [ ] [ex00 - x](./Module06/ex00)
-- [ ] [ex01 - x](./Module06/ex01)
+- [x] [ex00 - Static Cast](./Module06/ex00)
+- [x] [ex01 - Serialize](./Module06/ex01)
+- [x] [ex02 - Dynamic Cast](./Module06/ex02)
 
-### Module 07 - x
+### Module 07 - Templates
 
-- [ ] [ex00 - x](./Module07/ex00)
-- [ ] [ex01 - x](./Module07/ex01)
+- [x] [ex00 - Template](./Module07/ex00)
+- [x] [ex01 - Iter](./Module07/ex01)
+- [x] [ex02 - Array](./Module07/ex02)
 
-### Module 08 - x
+### Module 08 - Containers templates - Itérateurs - Algorithmes
 
-- [ ] [ex00 - x](./Module08/ex00)
-- [ ] [ex01 - x](./Module08/ex01)
+- [x] [ex00 - Easyfind](./Module08/ex00)
+- [x] [ex01 - Span](./Module08/ex01)
+- [x] [ex02 - MutantStack](./Module08/ex02)
 
-### Module 09 - x
+### Module 09 - STL
 
-- [ ] [ex00 - x](./Module09/ex00)
-- [ ] [ex01 - x](./Module09/ex01)
+- [x] [ex00 - Bitcoin](./Module09/ex00)
+- [x] [ex01 - RPN](./Module09/ex01)
+- [x] [ex02 - PmergeMe](./Module09/ex02)
 
 
 
@@ -98,6 +102,14 @@ Module 03: [![Module 03 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t6
 Module 04: [![Module 04 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3481430)](https://github.com/Coday-meric/badge42)
 
 Module 05: [![Module 05 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3482928)](https://github.com/Coday-meric/badge42)
+
+Module 06: [![Module 06 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3526722)](https://github.com/Coday-meric/badge42)
+
+Module 07: [![Module 07 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3538733)](https://github.com/Coday-meric/badge42)
+
+Module 08: [![Module 08 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3551835)](https://github.com/Coday-meric/badge42)
+
+Module 09: [![Module 09 Score](https://badge42.coday.fr/api/v2/clpo61f0c167701t692asdwoa/project/3552486)](https://github.com/Coday-meric/badge42)
 
 ## 📝 Auteur
 
